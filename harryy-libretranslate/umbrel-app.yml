@@ -2,7 +2,7 @@ manifestVersion: 1.2
 id: harryy-libretranslate
 category: ai
 name: LibreTranslate
-version: "1.6.5"
+version: "1.6.6"
 tagline: Free and Open Source machine translation API
 description: >-
   ⚠️ This app may take up to 10 minutes or more to become accessible after installation, depending on your hardware and internet connection. LibreTranslate must first download around 10 GB of translation models in the background before the UI becomes available. Please be patient.

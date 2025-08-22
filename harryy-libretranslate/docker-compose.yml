@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: sparkles-libretranslate_main_1
+      APP_HOST: harryy-libretranslate_main_1
       APP_PORT: 5000
       PROXY_AUTH_ADD: "false"
   main:
