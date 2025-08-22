@@ -2,7 +2,7 @@ manifestVersion: 1.2
 id: harryy-libretranslate
 category: ai
 name: LibreTranslate
-version: "1.6.7"
+version: "1.7.2"
 tagline: Free and Open Source machine translation API
 icon: ./assets/icon.png
 description: >-
@@ -27,10 +27,12 @@ defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
   This update includes several improvements and new features:
-    - Improved Traditional Chinese translations
-    - Enhanced language detection capabilities
-    - Added emoji translation request detection
-    - Various UI and accessibility improvements
+    - New features/options: Added attack mode, fingerprinting, customizable `<title>`, `--frontend-language`, and `--hide-api`.
+    - Healthcheck improvements: Support for `LT_PORT` and stricter non-200 status detection.
+    - Language support: Improved Catalan, added full Spanish translations, added Kazakh locale, and reviewed Chinese UI.
+    - Standards & requirements: Support for ISO 639-1 / 15924 codes and updated `argos-translate-files` with SRT support.
+    - Docker updates: Updated main Dockerfile and introduced two alternative variations.
+    - Docs & infrastructure: Improved Swagger definitions, reorganized README/docs, and added a new blitzw.in instance.
 
 
   Full release notes are found at https://github.com/LibreTranslate/LibreTranslate/releases
